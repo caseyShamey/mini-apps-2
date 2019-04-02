@@ -34,6 +34,9 @@ module.exports = {
       }
     ]
   },
+  externals: {
+    moment: 'moment'
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './client/index.html'
